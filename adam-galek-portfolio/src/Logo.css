@@ -1,0 +1,12 @@
+.img {
+    display: flex;
+    padding-top: 0px;
+    margin-top: 0px;
+    order: 1;
+    align-self: flex-start;
+    min-height: 100px;
+    min-width: 100px;
+    height: 20vh;
+    width: 20vh;
+
+}

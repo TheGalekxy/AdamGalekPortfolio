@@ -1,0 +1,7 @@
+.nav {
+    display: flex;
+    order: 2;
+    flex-grow: 2;
+    align-self: center;
+    justify-content: space-evenly;
+}
