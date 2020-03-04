@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './Navigation';
 import Logo from './Logo';
 import About from './About';
+import AboutPhoto from './AboutPhoto';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
         <Navigation />
         <Logo />
       </div>
-      <About />
+      {/* <About /> */}
+      <AboutPhoto />
     </div>
   );
 }

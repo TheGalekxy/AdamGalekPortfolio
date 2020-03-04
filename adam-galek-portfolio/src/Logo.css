@@ -1,7 +1,9 @@
 .img {
     display: flex;
     padding-top: 0px;
+    padding-bottom: 0px;
     margin-top: 0px;
+    margin-bottom: 0px;
     order: 1;
     align-self: flex-start;
     min-height: 100px;
