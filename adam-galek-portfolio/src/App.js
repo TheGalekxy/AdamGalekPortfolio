@@ -8,13 +8,10 @@ import AboutPhoto from './AboutPhoto';
 
 function App() {
   return (
-    <div>
-      <div className="App">
-        <Navigation />
-        <Logo />
-      </div>
+    <div className="App">
+      <Navigation className='nav' />
       {/* <About /> */}
-      <AboutPhoto />
+      {/* <AboutPhoto /> */}
     </div>
   );
 }

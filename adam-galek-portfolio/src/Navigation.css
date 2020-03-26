@@ -1,7 +1,29 @@
-.nav {
-    display: flex;
-    order: 2;
-    flex-grow: 2;
-    align-self: center;
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
     justify-content: space-evenly;
+}
+
+.nav-links {
+    
+    width: 40%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.img {
+    display: inline-flex;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    min-height: 100px;
+    min-width: 100px;
+    height: 20vh;
+    width: 20vh;
+
 }
