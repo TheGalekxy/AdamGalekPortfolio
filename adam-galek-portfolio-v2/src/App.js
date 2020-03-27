@@ -15,15 +15,15 @@ function App() {
               src={Logo}
               width="auto"
               height="50"
-              // className="d-inline-block align-top"
+              className="d-inline-block align-top"
               alt="Adam Galek's logo"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse>
             <Nav className="ml-auto" variant="pills" defaultActiveKey="/AboutMe">
-              <Nav.Item>
-                <Nav.Link class="text-white" href="/AboutMe">About Me</Nav.Link>
+              <Nav.Item >
+                <Nav.Link href="/AboutMe">About Me</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link eventKey="Projects"> Projects </Nav.Link>
