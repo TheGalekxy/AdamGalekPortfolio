@@ -12,16 +12,20 @@ class AboutMe extends Component {
         return (
             <Jumbotron className="text-center">
                 <h1>Hello, world! I'm Adam.</h1>
-                <p>
-                    This is a simple hero unit, a simple jumbotron-style component for calling
-                    extra attention to featured content or information.
-                    
-                </p>
+                
 
                 <Image src={AdamPhoto} fluid />
 
                 <p>
-                    <Button variant="primary">Learn more</Button>
+                    <br></br>
+                    With a background in anthropology, I am a self-taught web developer that approaches problems with a holistic perspective allowing me to solve problems in an effective way.
+
+                    
+                </p>
+
+                <p>
+                    <br></br>
+                    <Button href="/#" variant="primary">Find my resume here.</Button>
                 </p>
             </Jumbotron>
         )
