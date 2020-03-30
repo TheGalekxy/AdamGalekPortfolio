@@ -8,7 +8,7 @@ class Navigationbar extends Component {
         return (
             <div className="App">
         <div>  
-          <Navbar collapseOnSelect expand="sm" bg="dark" variant='dark' >
+          <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant='dark' >
             <Navbar.Brand href="#home">
               <img
                 src={Logo}

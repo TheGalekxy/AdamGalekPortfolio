@@ -4,7 +4,6 @@ import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 import StarWars from './StarWarsApi.PNG';
 import ComingSoon from './coming-soon-1.jpg';
-import photo3 from './waves.jpg';
 import Button from 'react-bootstrap/Button'
 
 
@@ -23,8 +22,8 @@ class Projects extends Component {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Button href="/#" block size="lg" variant="outline-primary">Live</Button>
-                        <Button href="/#" block size="lg" variant="outline-primary">GitHub</Button>
+                        <Button href="https://thegalekxy.github.io/StarWarsApi/" target="_blank" block size="lg" variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/StarWarsApi" target="_blank" block size="lg" variant="outline-primary">GitHub</Button>
                     </Card.Footer>
                 </Card>
                 <Card>
