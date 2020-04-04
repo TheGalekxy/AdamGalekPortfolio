@@ -11,7 +11,8 @@ import Button from 'react-bootstrap/Button'
 class Projects extends Component {
     render() {
         return (
-            <div>
+            <div className='projects-section' id='projects'>
+            <h1> Projects </h1>
             <CardDeck id="CardMargins">
                 <Card>
                     <Card.Img variant="top" src={StarWars} />

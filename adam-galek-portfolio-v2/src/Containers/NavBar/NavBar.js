@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Logo from './AdamGalekLogo3.png';
 
 class Navigationbar extends Component {
+
+
+
+  
     render() {
         return (
-            <div className="App">
+      <div className="nav-section">
         <div>  
           <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant='dark' >
             <Navbar.Brand href="#home">
@@ -20,16 +25,44 @@ class Navigationbar extends Component {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse>
-              <Nav className="ml-auto" variant="pills" defaultActiveKey="/AboutMe">
+              <Nav className="ml-auto" variant="pills" defaultActiveKey={1} >
                 <Nav.Item >
-                  <Nav.Link href="/AboutMe">About Me</Nav.Link>
+                  <Nav.Link eventKey={1} >
+                    <Link
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration= {500}
+                    > About Me 
+                    </Link>
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="Projects"> Projects </Nav.Link>
+                  <Nav.Link eventKey={2}>
+                      <Link
+                        activeClass="active"
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration= {500}
+                      > Projects 
+                      </Link> 
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="Contact">
-                    Contact
+                  <Nav.Link eventKey={3} >  
+                    <Link
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration= {500}
+                      > Contact 
+                    </Link>   
                   </Nav.Link>
                 </Nav.Item>
               </Nav>

@@ -10,7 +10,8 @@ import AdamPhoto from './Adam2.png';
 class AboutMe extends Component {
     render() {
         return (
-            <Jumbotron className="text-center">
+            <div className='about-section' id='about'>
+                <Jumbotron className="text-center">
                 <h1>Hello, world! I'm Adam.</h1>
                 
 
@@ -28,6 +29,7 @@ class AboutMe extends Component {
                     <Button href="/#" variant="primary">Find my resume here.</Button>
                 </p>
             </Jumbotron>
+            </div>
         )
     } 
   }

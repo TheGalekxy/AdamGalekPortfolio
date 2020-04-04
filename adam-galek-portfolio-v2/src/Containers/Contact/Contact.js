@@ -14,24 +14,24 @@ import Email from './email128-2.png';
 class Contact extends Component {
     render() {
         return (
-            <div>
+            <div className="contact-section" id='contact'>
 
             <h1> Contact me </h1>
 
             <Container>
                 <Row className="d-flex justify-content-center">
                     <Col xs="4" md="4" className="d-flex justify-content-center">
-                        <a href="http://www.google.ca">
+                        <a href="https://www.linkedin.com/in/adamgalek/" target="_blank" rel="noopener noreferrer">
                             <Image src={LinkedIn} fluid/>
                         </a>
                     </Col>
                     <Col xs="4" md="4" className="d-flex justify-content-center">
-                        <a href="http://www.google.ca">
+                        <a href="https://github.com/TheGalekxy" target="_blank" rel="noopener noreferrer">
                             <Image src={GitHub} fluid />
                         </a>
                     </Col>
                     <Col xs="4" md="4" className="d-flex justify-content-center">
-                        <a href="http://www.google.ca">
+                        <a href="mailto:galekxy94@gmail.com" target="_blank" rel="noopener noreferrer">
                             <Image src={Email} fluid />
                         </a>
                     </Col>
