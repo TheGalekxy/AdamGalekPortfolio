@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69de8b20.chunk.css",
+    "main.js": "/static/js/main.ba668e1b.chunk.js",
+    "main.js.map": "/static/js/main.ba668e1b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e974cfd9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e974cfd9.js.map",
+    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
+    "static/js/2.cc6438c5.chunk.js": "/static/js/2.cc6438c5.chunk.js",
+    "static/js/2.cc6438c5.chunk.js.map": "/static/js/2.cc6438c5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.846b6c7b0ebf8d988304145044627c03.js": "/precache-manifest.846b6c7b0ebf8d988304145044627c03.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
+    "static/css/main.69de8b20.chunk.css.map": "/static/css/main.69de8b20.chunk.css.map",
+    "static/js/2.cc6438c5.chunk.js.LICENSE.txt": "/static/js/2.cc6438c5.chunk.js.LICENSE.txt",
+    "static/media/Adam2.png": "/static/media/Adam2.8d95e864.png",
+    "static/media/StarWarsApi.PNG": "/static/media/StarWarsApi.4f6c6ea2.PNG",
+    "static/media/coming-soon-1.jpg": "/static/media/coming-soon-1.52f4a57b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e974cfd9.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.cc6438c5.chunk.js",
+    "static/css/main.69de8b20.chunk.css",
+    "static/js/main.ba668e1b.chunk.js"
+  ]
+}
