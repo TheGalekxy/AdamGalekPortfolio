@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './NavBar.css';
 import { Link } from 'react-scroll'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -26,8 +27,8 @@ class Navigationbar extends Component {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
             <Navbar.Collapse >
-              <Nav className="ml-auto" variant="pills" defaultActiveKey={1} >
-                <Nav.Item>
+              <Nav className="ml-auto" >
+                <Nav.Item className='navbar' >
                 <Link
                         activeClass="active"
                         to="about"
@@ -36,12 +37,12 @@ class Navigationbar extends Component {
                         offset={-60}
                         duration= {500}
                     > 
-                    <Nav.Link eventKey={1} >
+                    <Nav.Link id='nav-link' >
                       About Me
                     </Nav.Link>
                   </Link>
-                </Nav.Item>
-                <Nav.Item>
+                
+                
                   <Link
                           activeClass="active"
                           to="projects"
@@ -50,12 +51,12 @@ class Navigationbar extends Component {
                           offset={-100}
                           duration= {500}
                       > 
-                      <Nav.Link eventKey={2} >
+                      <Nav.Link >
                         Projects
                       </Nav.Link>
                     </Link>
-                </Nav.Item>
-                <Nav.Item>
+                
+                
                   <Link
                           activeClass="active"
                           to="contact"
@@ -64,7 +65,7 @@ class Navigationbar extends Component {
                           offset={-70}
                           duration= {500}
                       > 
-                      <Nav.Link eventKey={3} >
+                      <Nav.Link >
                         Contact
                       </Nav.Link>
                   </Link>
