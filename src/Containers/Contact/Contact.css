@@ -1,4 +1,15 @@
 h1 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 1vh;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 1vh;
+    font-size: 20px;
+}
+
+.contact-section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }

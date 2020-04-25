@@ -8,6 +8,7 @@ import LinkedIn from './LinkedIn2.png';
 import GitHub from './GitHub128.png';
 import Email from './email128-2.png';
 import Youtube from './youtube128.png';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 
 
@@ -15,9 +16,14 @@ import Youtube from './youtube128.png';
 class Contact extends Component {
     render() {
         return (
+        
+        
+            
             <div className="contact-section" id='contact'>
-
+            <Jumbotron fluid>
             <h1> Contact me! </h1>
+
+            <p> If you are interested in working together or finding out more about me I have links to my social medias below. </p>
 
             <Container>
                 <Row className="d-flex justify-content-center">
@@ -43,8 +49,10 @@ class Contact extends Component {
                     </Col>
                 </Row>
             </Container>
+            </Jumbotron>
 
             </div>
+        
         )
     } 
   }
