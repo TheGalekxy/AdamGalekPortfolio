@@ -37,9 +37,9 @@ class Projects extends Component {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Button href="https://smart-brain-galek.herokuapp.com/" size="lg" block variant="outline-primary">Live</Button>
-                        <Button href="https://github.com/TheGalekxy/smart-brain-front-end" size="lg" block variant="outline-primary">Front-End Code</Button>
-                        <Button href="https://github.com/TheGalekxy/SmartBrain" size="lg" block variant="outline-primary">Back-End Code</Button>
+                        <Button href="https://smart-brain-galek.herokuapp.com/" target="_blank" size="lg" block variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/smart-brain-front-end" target="_blank" size="lg" block variant="outline-primary">Front-End Code</Button>
+                        <Button href="https://github.com/TheGalekxy/SmartBrain" size="lg" target="_blank" block variant="outline-primary">Back-End Code</Button>
                     </Card.Footer>
                 </Card>
                 <Card>

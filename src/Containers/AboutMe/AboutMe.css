@@ -1,3 +1,6 @@
 .about-section {
-    padding-bottom: 5vh;
+    padding-top: 5vh;
+    /* padding-bottom: 5vh; */
+    margin-bottom: 0px;
+    margin-top: 0px;
 }

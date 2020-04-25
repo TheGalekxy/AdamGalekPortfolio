@@ -24,10 +24,6 @@ class AboutMe extends Component {
                     
                 </p>
 
-                <p>
-                    <br></br>
-                    <Button href="/#" variant="primary">Find my resume here.</Button>
-                </p>
             </Jumbotron>
             </div>
         )
