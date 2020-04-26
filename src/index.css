@@ -5,8 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 6vh;   /*  makes sure the body is seperated from the static NavBar */
+  padding-top: 5vh;   /*  makes sure the body is seperated from the static NavBar */
   /* padding-bottom: 5vh; */
+}
+
+@media (max-width: 575px) {
+  body {
+    padding-top: 7vh;
+  }
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
 }
 
 code {
