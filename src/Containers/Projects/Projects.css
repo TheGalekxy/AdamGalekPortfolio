@@ -12,3 +12,9 @@
     margin-top: 5vh;
     text-align: center;
 }
+
+.cardPadding {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}

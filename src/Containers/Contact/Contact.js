@@ -23,7 +23,7 @@ class Contact extends Component {
             <Jumbotron fluid>
             <h1> Contact me! </h1>
 
-            <p> If you are interested in working together or finding out more about me I have links to my social medias below. </p>
+            <p> If you are interested in working together please contact through any medium seen below. </p>
 
             <Container>
                 <Row className="d-flex justify-content-center">
