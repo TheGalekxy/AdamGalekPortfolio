@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 5vh;   /*  makes sure the body is seperated from the static NavBar */
+  padding-top: 6vh;   /*  makes sure the body is seperated from the static NavBar */
   /* padding-bottom: 5vh; */
 }
 
