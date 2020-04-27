@@ -13,7 +13,7 @@ body {
   body {
     padding-top: 7vh;
   }
-  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  /* CSS that should be displayed if width is equal to or less than 575px goes here */
 }
 
 code {

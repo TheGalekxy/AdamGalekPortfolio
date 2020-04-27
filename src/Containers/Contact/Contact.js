@@ -21,9 +21,9 @@ class Contact extends Component {
             
             <div className="contact-section" id='contact'>
             <Jumbotron fluid>
-            <h1> Contact me! </h1>
+            <h1 class="display-4"> Contact me! </h1>
 
-            <p> If you are interested in working together please contact through any medium seen below. </p>
+            <p> If you are interested in working together, please contact me through any medium seen below. </p>
 
             <Container>
                 <Row className="d-flex justify-content-center">

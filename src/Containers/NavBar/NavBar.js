@@ -15,7 +15,7 @@ class Navigationbar extends Component {
       <div>
         <div > 
            
-          <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant='dark' >
+          <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant='dark'>
             <Navbar.Brand href="#home">
               <img
                 src={Logo}
@@ -25,8 +25,8 @@ class Navigationbar extends Component {
                 alt="Adam Galek's logo"
               />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
-            <Navbar.Collapse >
+            <Navbar.Toggle aria-controls="responsive-navbar-nav"   />
+            <Navbar.Collapse className='mobileNav'>
               <Nav className="ml-auto" >
                 <Nav.Item className='navbar' >
                 <Link
