@@ -16,7 +16,7 @@ class Navigationbar extends Component {
         <div > 
            
           <Navbar collapseOnSelect fixed="top" expand="sm" bg="dark" variant='dark'>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand>
               <img
                 src={Logo}
                 width="auto"
