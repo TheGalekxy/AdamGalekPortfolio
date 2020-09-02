@@ -10,7 +10,14 @@ p {
 }
 
 .contact-section {
+    display: flex;
+    justify-content: center;
+    height: 95vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
     background-color: #e9ecef;
+}
+
+#jumbo {
+    align-self: center;
 }

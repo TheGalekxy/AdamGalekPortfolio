@@ -16,6 +16,9 @@ import PostGresImage from './PostgresQL96.png';
 import NpmImage from './Npm96.png';
 import NodeJSImage from './NodeJS96.png';
 import BootstrapImage from './Bootstrap96.png';
+import NHL from './NHLapi.png';
+import Generator from './backgroundGenerator.png';
+import Todo from './todoList.png';
 
 
 
@@ -111,6 +114,81 @@ class Projects extends Component {
                     </Card.Footer>
                 </Card>
             </CardDeck>
+            <CardDeck id="CardMargins">
+                <Card>
+                <Card.Header as="h4">Gradient Generator</Card.Header>
+                    <Card.Img variant="top" src={Generator} />
+                    <Card.Body className="cardPadding">
+                    {/* <Card.Title class="h4">StarWars API Project</Card.Title> */}
+                    <Card.Text class="text-muted">
+                        This is a project that allows the user to randomize a background gradient to their preference.
+                        
+                            
+                    </Card.Text>
+                    <Card.Text class="text-muted">
+                        Randomization options include: both colours or a single colour, and allows the user to change to their preferred gradient style. Additionally, a click-to-copy feature is implemented to allow for easy use of the created gradient in the users personal code.
+                    </Card.Text>
+                    </Card.Body>
+                    <Card.Footer class='technologyIcons'>
+                        <Image src={HtmlImage} rounded />
+                        <Image src={CssImage} rounded />
+                        <Image src={JavascriptImage} rounded />
+                    </Card.Footer>
+                    <Card.Footer>
+                        <Button href="https://thegalekxy.github.io/GradientGenerator/" target="_blank" block size="lg" variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/GradientGenerator" target="_blank" block size="lg" variant="outline-primary">GitHub</Button>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                <Card.Header as="h4">Todo List</Card.Header>
+                    <Card.Img variant="top" src={Todo} />
+                    <Card.Body className="cardPadding">
+                    {/* <Card.Title class="h4" > SmartBrain Full-Stack Application </Card.Title> */}
+                    <Card.Text class="text-muted">
+                        This is a Todo List project created with vanilla javascript and css
+                    </Card.Text>
+                    <Card.Text class='text-muted'>
+                        Features include the ability to add and delete items from a list, toggle 'completed' items, and filter 'completed' 'uncompleted' items from. 
+                    </Card.Text>
+
+                    </Card.Body>
+                    <Card.Footer class='technologyIcons'>
+                        <Image src={HtmlImage} fluid />
+                        <Image src={CssImage} fluid />
+                        <Image src={JavascriptImage} fluid />
+                    </Card.Footer>
+
+                    <Card.Footer>
+                        <Button href="https://thegalekxy.github.io/TodoApp/" target="_blank" size="lg" block variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/TodoApp" target="_blank" size="lg" block variant="outline-primary">GitHub </Button>
+                    </Card.Footer>
+                </Card>
+                <Card>
+                <Card.Header as="h4">NHL API Project</Card.Header>
+                    <Card.Img variant="top" src={NHL} />
+                    <Card.Body className="cardPadding">
+                    {/* <Card.Title class="h4"> Portfolio Site </Card.Title> */}
+                    <Card.Text class="text-muted">
+                            This is a project that retrieves the National Hockey League's API and returns a complete and semi-detailed roster of each team.
+                    </Card.Text>
+                    <Card.Text class="text-muted">
+                            Each roster is seperated into teams and only is displayed when their respective teams card is hovered over.
+                    </Card.Text>
+                    
+
+                    </Card.Body>
+                    <Card.Footer class='technologyIcons'>
+                        <Image src={HtmlImage} fluid />
+                        <Image src={CssImage} fluid />
+                        <Image src={JavascriptImage} fluid />
+                    </Card.Footer>
+                    <Card.Footer>
+                        <Button href="https://thegalekxy.github.io/NHLApi/" size="lg" block variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/NHLApi" size="lg" block variant="outline-primary">GitHub</Button>
+                    </Card.Footer>
+                </Card>
+            </CardDeck>
+            
             
             </div>
         )

@@ -20,7 +20,7 @@ class Contact extends Component {
         
             
             <div className="contact-section" id='contact'>
-            <Jumbotron fluid>
+            <Jumbotron fluid id='jumbo'>
             <h1 class="display-4"> Contact me! </h1>
 
             <p> If you are interested in working together, please contact me through any medium seen below. </p>
