@@ -1,30 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.d125f578.chunk.css",
-    "main.js": "/static/js/main.b84ca933.chunk.js",
-    "main.js.map": "/static/js/main.b84ca933.chunk.js.map",
+    "main.css": "/static/css/main.bc78eb81.chunk.css",
+    "main.js": "/static/js/main.dc7a23ad.chunk.js",
+    "main.js.map": "/static/js/main.dc7a23ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e974cfd9.js",
     "runtime-main.js.map": "/static/js/runtime-main.e974cfd9.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.287ba6f0.chunk.js": "/static/js/2.287ba6f0.chunk.js",
-    "static/js/2.287ba6f0.chunk.js.map": "/static/js/2.287ba6f0.chunk.js.map",
+    "static/js/2.6f5b6504.chunk.js": "/static/js/2.6f5b6504.chunk.js",
+    "static/js/2.6f5b6504.chunk.js.map": "/static/js/2.6f5b6504.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.862f610fb2de64e7899ac6780ed6194b.js": "/precache-manifest.862f610fb2de64e7899ac6780ed6194b.js",
+    "precache-manifest.6ebe3460b0a011729d75cb5702ef1dc7.js": "/precache-manifest.6ebe3460b0a011729d75cb5702ef1dc7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.d125f578.chunk.css.map": "/static/css/main.d125f578.chunk.css.map",
-    "static/js/2.287ba6f0.chunk.js.LICENSE.txt": "/static/js/2.287ba6f0.chunk.js.LICENSE.txt",
+    "static/css/main.bc78eb81.chunk.css.map": "/static/css/main.bc78eb81.chunk.css.map",
+    "static/js/2.6f5b6504.chunk.js.LICENSE.txt": "/static/js/2.6f5b6504.chunk.js.LICENSE.txt",
     "static/media/Adam2.png": "/static/media/Adam2.8d95e864.png",
+    "static/media/NHLapi.png": "/static/media/NHLapi.c9aa2e17.png",
     "static/media/SmartBrain.png": "/static/media/SmartBrain.79703ff9.png",
     "static/media/StarWarsApi.PNG": "/static/media/StarWarsApi.4f6c6ea2.PNG",
+    "static/media/backgroundGenerator.png": "/static/media/backgroundGenerator.1bab6e28.png",
     "static/media/coming-soon-1.jpg": "/static/media/coming-soon-1.52f4a57b.jpg",
-    "static/media/portfolioSiteImage.png": "/static/media/portfolioSiteImage.9ea35d23.png"
+    "static/media/portfolioSiteImage.png": "/static/media/portfolioSiteImage.9ea35d23.png",
+    "static/media/todoList.png": "/static/media/todoList.dcdc3229.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e974cfd9.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.287ba6f0.chunk.js",
-    "static/css/main.d125f578.chunk.css",
-    "static/js/main.b84ca933.chunk.js"
+    "static/js/2.6f5b6504.chunk.js",
+    "static/css/main.bc78eb81.chunk.css",
+    "static/js/main.dc7a23ad.chunk.js"
   ]
 }
