@@ -65,8 +65,8 @@ class Projects extends Component {
                         <Image src={Digitalocean} rounded />
                     </Card.Footer>
                     <Card.Footer>
-                        <Button href="https://momsovermatter.ca/" target="_blank" block size="lg" variant="outline-primary">Live</Button>
-                        {/* <Button href="https://github.com/k4iru/discussion" target="_blank" block size="lg" variant="outline-primary">GitHub</Button> */}
+                        <Button href="https://momsovermatter.ca/" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">Live</Button>
+                        {/* <Button href="https://github.com/k4iru/discussion" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">GitHub</Button> */}
                     </Card.Footer>
                 </Card>
                 <Card>
@@ -88,7 +88,7 @@ class Projects extends Component {
                         <Image src={Sass} fluid />
                     </Card.Footer>
                     <Card.Footer>
-                        <Button href="https://www.votenoel.ca/" size="lg" block variant="outline-primary">Live</Button>
+                        <Button href="https://www.votenoel.ca/" target="_blank" rel="noopener noreferrer" size="lg" block variant="outline-primary">Live</Button>
                         {/* <Button href="https://github.com/TheGalekxy/AdamGalekPortfolio" size="lg" block variant="outline-primary">GitHub</Button> */}
                     </Card.Footer>
                 </Card>
@@ -113,8 +113,8 @@ class Projects extends Component {
                         <Image src={Redux} rounded />
                     </Card.Footer>
                     <Card.Footer>
-                        <Button href="https://justcook.live/" target="_blank" block size="lg" variant="outline-primary">Live</Button>
-                        <Button href="https://github.com/k4iru/JustCook" target="_blank" block size="lg" variant="outline-primary">GitHub</Button>
+                        <Button href="https://justcook.live/" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/k4iru/JustCook" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">GitHub</Button>
                     </Card.Footer>
                 </Card>
             
@@ -145,9 +145,9 @@ class Projects extends Component {
                     </Card.Footer>
 
                     <Card.Footer>
-                        <Button href="https://smart-brain-galek.herokuapp.com/" target="_blank" size="lg" block variant="outline-primary">Live</Button>
-                        <Button href="https://github.com/TheGalekxy/smart-brain-front-end" target="_blank" size="lg" block variant="outline-primary">GitHub - Front-End</Button>
-                        <Button href="https://github.com/TheGalekxy/SmartBrain" size="lg" target="_blank" block variant="outline-primary">Github - Back-End</Button>
+                        <Button href="https://smart-brain-galek.herokuapp.com/" target="_blank" rel="noopener noreferrer" size="lg" block variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/smart-brain-front-end" target="_blank" rel="noopener noreferrer" size="lg" block variant="outline-primary">GitHub - Front-End</Button>
+                        <Button href="https://github.com/TheGalekxy/SmartBrain" size="lg" target="_blank" rel="noopener noreferrer" block variant="outline-primary">Github - Back-End</Button>
                     </Card.Footer>
                 </Card> */}
                 <Card className="card">
@@ -173,8 +173,8 @@ class Projects extends Component {
                         <Image src={nginx} rounded />
                     </Card.Footer>
                     <Card.Footer>
-                        <Button href="https://phpknights.ca/" target="_blank" block size="lg" variant="outline-primary">Live</Button>
-                        <Button href="https://github.com/k4iru/discussion" target="_blank" block size="lg" variant="outline-primary">GitHub</Button>
+                        <Button href="https://phpknights.ca/" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/k4iru/discussion" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">GitHub</Button>
                     </Card.Footer>
                 </Card>
                 <Card className="card">
@@ -198,8 +198,8 @@ class Projects extends Component {
                         
                     </Card.Footer>
                     <Card.Footer>
-                        <Button href="https://thegalekxy.github.io/GradientGenerator/" target="_blank" block size="lg" variant="outline-primary">Live</Button>
-                        <Button href="https://github.com/TheGalekxy/GradientGenerator" target="_blank" block size="lg" variant="outline-primary">GitHub</Button>
+                        <Button href="https://thegalekxy.github.io/GradientGenerator/" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/GradientGenerator" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">GitHub</Button>
                     </Card.Footer>
                 </Card>
                 {/* <Card>
@@ -221,8 +221,8 @@ class Projects extends Component {
                     </Card.Footer>
 
                     <Card.Footer>
-                        <Button href="https://thegalekxy.github.io/TodoApp/" target="_blank" size="lg" block variant="outline-primary">Live</Button>
-                        <Button href="https://github.com/TheGalekxy/TodoApp" target="_blank" size="lg" block variant="outline-primary">GitHub </Button>
+                        <Button href="https://thegalekxy.github.io/TodoApp/" target="_blank" rel="noopener noreferrer" size="lg" block variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/TodoApp" target="_blank" rel="noopener noreferrer" size="lg" block variant="outline-primary">GitHub </Button>
                     </Card.Footer>
                 </Card> */}
                 <Card className="card">
@@ -245,8 +245,8 @@ class Projects extends Component {
                         <Image src={JavascriptImage} fluid />
                     </Card.Footer>
                     <Card.Footer>
-                        <Button href="https://thegalekxy.github.io/NHLApi/" size="lg" block variant="outline-primary">Live</Button>
-                        <Button href="https://github.com/TheGalekxy/NHLApi" size="lg" block variant="outline-primary">GitHub</Button>
+                        <Button href="https://thegalekxy.github.io/NHLApi/" target="_blank" rel="noopener noreferrer" size="lg" block variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/NHLApi" target="_blank" rel="noopener noreferrer" size="lg" block variant="outline-primary">GitHub</Button>
                     </Card.Footer>
                 </Card >
                 {/* <Card>
@@ -297,8 +297,8 @@ class Projects extends Component {
                         <Image src={NpmImage} rounded />
                     </Card.Footer>
                     <Card.Footer>
-                        <Button href="https://thegalekxy.github.io/StarWarsApi/" target="_blank" block size="lg" variant="outline-primary">Live</Button>
-                        <Button href="https://github.com/TheGalekxy/StarWarsApi" target="_blank" block size="lg" variant="outline-primary">GitHub</Button>
+                        <Button href="https://thegalekxy.github.io/StarWarsApi/" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/StarWarsApi" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">GitHub</Button>
                     </Card.Footer>
                 </Card> */}
                 <Card className="card">
@@ -322,8 +322,8 @@ class Projects extends Component {
                         <Image src={nginx} rounded />
                     </Card.Footer>
                     <Card.Footer>
-                        <Button href="http://142.93.158.44/" target="_blank" block size="lg" variant="outline-primary">Live</Button>
-                        <Button href="https://github.com/TheGalekxy/LyricsGenerator" target="_blank" block size="lg" variant="outline-primary">GitHub</Button>
+                        <Button href="http://142.93.158.44/" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">Live</Button>
+                        <Button href="https://github.com/TheGalekxy/LyricsGenerator" target="_blank" rel="noopener noreferrer" block size="lg" variant="outline-primary">GitHub</Button>
                     </Card.Footer>
                 </Card>
             </CardDeck>
