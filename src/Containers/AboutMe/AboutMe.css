@@ -4,3 +4,23 @@
     margin-bottom: 0px;
     margin-top: 10px;
 }
+
+.image {
+    height: 56vh;
+    width: auto;
+}
+
+@media screen and (max-width: 880px) {
+    .image {
+        height: auto;
+        width: auto;
+    }
+
+    /* h1 {
+        font-size: 20px;
+    } */
+
+    .display-4 {
+        font-size: 36px;
+    }
+  }

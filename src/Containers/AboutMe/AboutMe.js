@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'react-bootstrap/Image';
-import AdamPhoto from './Adam2.png';
+import AdamPhoto from '../AboutMe/Adam2.jpg';
+import './AboutMe.css';
 
 
 
@@ -14,27 +15,13 @@ class AboutMe extends Component {
                 <h1 class="display-4">Hello, world! I'm Adam.</h1>
                 
 
-                <Image src={AdamPhoto} fluid />
+                <Image src={AdamPhoto} fluid className="image"/>
 
                 <p>
                     <br></br>
 
-                    Some of my earliest memories of school were creating my very own Piczo.com website and altering it to my desires. For example, I distinctly remember adding a viewcounter to my page and obsessively checking it every few days. 
-                    At that point, my Piczo website was nothing more than an a way to connect with my friends but it had planted a seed. A seed that eventually grew into an strong interest in software and technology.
+                    Adam is a full-stack web developer with a background in anthropology & archaeology. Using his experience in anthropology as a foundation, Adam strives to create web applications that focus on the human behind the screen whether that means adding alt attributes to every HTML &lt;img&gt; tag to meet accessibility standards, altering CSS to be pixel perfect, or implementing JavaScript functionality improvements. He is excited to keep learning and looks forward to working through the upcoming challenges on his web development journey.
                     
-                </p>
-                <p>
-                    While my start in elementary school did not lead to me pursuing computer science in university, my interest in the field has always been present.
-                    For university, I decided to pursue Anthropology. Essentially, the study of Humans. 
-                    This path has led me to have many different exciting experiences, like participating in the Stelida Naxos Archaeological Project, an Archaeological dig on the Greek island of Naxos.
-                    As Anthropology is such a broad field, it has allowed me to continue exploring my curiosities, and to constantly be learning new information while evaluating my own perspective on everything.
-                    This passion for adventure and knowledge has served me well on my journey into learning all that is involved in web development.
-
-                </p>
-
-                <p> 
-                    Furthermore, my Anthropological background has taught me to approach problems from a holistic perspective which allows me to approach development issues similarly.
-                    This often allows me to effectively break down many bugs or issues I face while programming.
                 </p>
 
             </Jumbotron>

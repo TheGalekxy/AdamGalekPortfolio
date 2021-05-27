@@ -23,3 +23,27 @@
     
 }
 
+@media screen and (max-width: 880px) {
+    .technologyIcons {
+        display: none;
+    }
+
+    .cardHeader {
+        font-size: 18px;
+    }
+
+    .text-muted {
+        font-size: 14px;
+    }
+
+    .cardPadding {
+        padding-top: 0.5rem;
+        padding-right: 0.25rem;
+        padding-left: 0.25rem;
+    }
+
+    .card {
+        margin: 0 5px;
+    }
+  }
+
